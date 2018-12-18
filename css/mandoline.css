@@ -1,0 +1,7 @@
+.header{
+    height: 640px;
+}
+
+#head, #demo, #pp, #breakdown, #probs, #sketches, #key{
+    width: 100%;
+}

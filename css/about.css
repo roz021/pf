@@ -1,0 +1,28 @@
+.maincontent{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.myphoto{
+    width: 50%;
+    float: left;
+}
+
+#me{
+    margin: auto;
+    max-width: 150vh;
+    max-height: 125vh
+}
+
+#bio{
+    font-size: 35px;
+}
+
+.mybio{
+    padding-top: 50px;
+}
+.mybio p{
+    font-family: Baskerville;
+    font-size: 25px;
+}

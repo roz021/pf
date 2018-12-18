@@ -1,0 +1,33 @@
+.header{
+    height: 640px;
+}
+
+#head, #banner, #personas, #wires, #multiple, #hub, #meet, #commit{
+    width: 100%;
+}
+
+#multiple{
+    padding-bottom: 50px;
+}
+
+#protolink{
+    text-align: center;
+}
+
+#prototype{
+    background-color: #67CEF6;
+    color: white;
+    border-radius: 50px;
+    width: 25%;
+    height: 75px;
+    font-family: Baskerville;
+}
+
+#prototype:hover{
+    transition: .2s;
+    background-color: rgb(77, 152, 182);
+}
+
+html h1, html h2, html p, html li{
+    font-family: Baskerville;
+}
