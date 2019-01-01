@@ -12,8 +12,12 @@ html h1, html h2, html p, html li{
 
 html p, html li{
     font-size: 20px;
+    padding: 0em 8em;
 }
 
+#roles{
+    list-style-position: inside;
+}
 
 #dem{
     text-align: center;

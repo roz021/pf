@@ -38,6 +38,15 @@ html p, html li{
     font-size: 20px;
 }
 
+html p, html li {
+    padding: 0em 8em;
+}
+
+#roles, #results{
+    list-style-position: inside;
+
+}
+
 #meet, #commit{
     padding-top: 5%;
 }
