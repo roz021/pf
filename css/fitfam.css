@@ -33,3 +33,12 @@
 html h1, html h2, html p, html li{
     font-family: Baskerville;
 }
+
+html p, html li{
+    font-size: 20px;
+}
+
+#meet, #commit{
+    padding-top: 5%;
+}
+
