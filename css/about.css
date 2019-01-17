@@ -21,8 +21,10 @@
 
 .mybio{
     padding-top: 50px;
+    padding-right: 5em;
 }
 .mybio p{
     font-family: Baskerville;
     font-size: 25px;
+    padding-top: 1.5em;
 }
