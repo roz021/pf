@@ -1,7 +1,12 @@
+body{
+    width: 100%;
+    margin: auto;
+}
 .maincontent{
     overflow: hidden;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    margin: auto;
 }
 
 .myphoto{
@@ -10,20 +15,23 @@
 }
 
 #me{
-    margin: auto;
-    max-width: 150vh;
-    max-height: 125vh
+    width: 50em;
+    height: 50%;
 }
 
 #bio{
     font-size: 35px;
 }
 
-.mybio{
+#mybio{
+    width: 50%;
+    height: 50%;
+    float: left;
     padding-top: 50px;
-    padding-right: 5em;
+    padding-right: 3em;
+    padding-left: 3em;
 }
-.mybio p{
+#mybio p{
     font-family: Baskerville;
     font-size: 25px;
     padding-top: 1.5em;
