@@ -2,10 +2,14 @@
     height: 640px;
 }
 
-#head, #demo, #pp, #breakdown, #probs, #sketches, #key{
+#head,  #breakdown, #probs, #sketches, #key{
     width: 100%;
 }
 
+#pp, #demo{
+    height: 60%;
+    width: 60%;
+}
 html h1, html h2, html p, html li{
     font-family: Baskerville;
 }

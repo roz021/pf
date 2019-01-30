@@ -16,23 +16,16 @@ body{
 
 #me{
     width: 50em;
-    height: 50%;
+    height: 90%;
 }
 
 #bio{
     font-size: 35px;
 }
 
-#mybio{
-    width: 50%;
-    height: 50%;
-    float: left;
-    padding-top: 50px;
-    padding-right: 3em;
-    padding-left: 3em;
-}
+
 #mybio p{
     font-family: Baskerville;
-    font-size: 25px;
-    padding-top: 1.5em;
+    font-size: 22px;
+    padding-top: 5%;
 }

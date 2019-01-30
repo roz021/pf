@@ -42,19 +42,20 @@
     background-color: white;
     color: black;
 }
+#hello, #curr{
+    text-align: center;
+}
 
 #hello{
     /* background: black; */
     font-family: Baskerville;
     padding-top: 225px;
-    padding-left: 100px;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #curr{
     font-family: Baskerville;
-    padding-left: 100px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .fitfam{
