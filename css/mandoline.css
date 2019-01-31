@@ -1,3 +1,13 @@
+@font-face{
+    font-family: roboto-light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf)
+}
+
 .header{
     height: 640px;
 }
@@ -11,7 +21,7 @@
     width: 60%;
 }
 html h1, html h2, html p, html li{
-    font-family: Baskerville;
+    font-family: roboto-light;
 }
 
 html p, html li{

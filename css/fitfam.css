@@ -1,3 +1,9 @@
+
+@font-face{
+    font-family: roboto-reg;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
 .header{
     height: 640px;
     background-color: #67CEF6;
@@ -67,7 +73,8 @@
     border-radius: 50px;
     width: 25%;
     height: 75px;
-    font-family: Baskerville;
+    /* font-family: Baskerville; */
+    font-family: roboto-reg;
 }
 
 #prototype:hover{
@@ -76,7 +83,8 @@
 }
 
 html h1, html h2, html p, html li{
-    font-family: Baskerville;
+    /* font-family: Baskerville; */
+    font-family: roboto-reg;
 }
 
 html p, html li{

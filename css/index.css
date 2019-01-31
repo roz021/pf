@@ -1,5 +1,14 @@
+@font-face{
+    font-family: roboto-light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf)
+}
 .topnav{
-    font-family: Baskerville;
+    font-family: roboto;
     font-size: 20px;
     background-color: white;
     overflow: hidden;
@@ -73,7 +82,7 @@
     top: 35%;
     width: 100%;
     z-index: 1;
-    font-family: Baskerville;
+    font-family: roboto-light;
     font-size: 45px;
     text-shadow:
     -1px -1px 0 #000,
@@ -81,6 +90,7 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;
     color: rgb(255, 255, 255);
+    /* background-color: rgba(114, 114, 114, 0.411); */
     opacity: 0;
     transition: opacity .3s;
 
@@ -92,7 +102,7 @@
     top: 55%;
     width: 100%;
     z-index: 1;
-    font-family: Baskerville;
+    font-family: roboto-light;
     font-size: 30px;
     text-shadow:
     -1px -1px 0 #000,
