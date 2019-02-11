@@ -76,8 +76,8 @@ a{
 
 /*  NAV*/
 nav{
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 50px;
     left: 5%;
     line-height: 50px;
     width: 100%;
@@ -90,9 +90,9 @@ nav a{
 }
 
 .right-nav{
-    position: absolute;
-    right: 10%;
-    top: 10px;
+    position: fixed;
+    right: 5%;
+    top: 50px;
 }
 
 .right-nav a:first-child{
@@ -110,7 +110,7 @@ nav a{
 .content-wrapper{
     width: 60%;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom:10%;
 }
 
 #roles{

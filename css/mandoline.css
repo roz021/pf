@@ -79,8 +79,8 @@ a{
 }
 /*  NAV*/
 nav{
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    top: 50px;
     left: 5%;
     line-height: 50px;
     width: 100%;
@@ -93,9 +93,9 @@ nav a{
 }
 
 .right-nav{
-    position: absolute;
-    right: 10%;
-    top: 10px;
+    position: fixed;
+    right: 5%;
+    top: 50px;
 }
 
 .right-nav a:first-child{
