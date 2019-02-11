@@ -83,11 +83,15 @@ a{
 }
 /*  NAV*/
 nav{
-    position: fixed;
-    top: 50px;
-    left: 5%;
+    position: absolute;
+    top: 25px;
+    /* left: 5%; */
     line-height: 50px;
     width: 100%;
+}
+
+.name{
+    margin-left: 5%;
 }
 
 nav a{
@@ -97,9 +101,9 @@ nav a{
 }
 
 .right-nav{
-    position: fixed;
+    position: absolute;
     right: 5%;
-    top: 50px;
+    top: 5px;
 }
 
 .right-nav a:first-child{
