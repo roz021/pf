@@ -145,10 +145,10 @@ img{
 
 }
 
-/* #name{
-    margin-top: 7%;
-    margin-left: 2%;
-} */
+#name{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 
 .task-flow{
     width: 100%;
