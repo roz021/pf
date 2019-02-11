@@ -1,128 +1,176 @@
+
 @font-face{
-    font-family: roboto-light;
-    src: url(../fonts/roboto/Roboto-Light.ttf);
+    font-family: Avenir;
+    src: url(avenir/AvenirLTStd-Book.otf);
 }
 
 @font-face{
-    font-family: roboto;
-    src: url(../fonts/roboto/Roboto-Regular.ttf)
+    font-family: Avenir-Med;
+    src: url(avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face{
+    font-family: Avenir-Bold;
+    src: url(avenir/AvenirLTStd-Black.otf);
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+:root{
+    --main-black: #2E2E2E;
+    --main-blue: #0697F2;
+    --sec-blue: #BFE6FF;
+    --main-gray: #C1C1C1;
+    --sec-gray: #F7F7F7;
+}
+
+html{
+    font-family: Avenir, sans-serif;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Avenir-Bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-family: Avenir-Med;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h3{
+    padding: 0 10%;
+    font-family: Avenir;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 17px;
+    color: var(--main-gray);
+}
+
+a{
+    font-size: 17px;
+    color: var(--main-black);
+    text-decoration: none;
+}
+
+.blue-text{
+    color: var(--main-blue);
 }
 
 .header{
-    height: 640px;
+    margin-top: 5%;
 }
-
-#head,  #breakdown, #probs, #sketches, #key{
+/*  NAV*/
+nav{
+    position: absolute;
+    top: 10px;
+    left: 5%;
+    line-height: 50px;
     width: 100%;
 }
 
-#pp, #demo{
-    height: 60%;
-    width: 60%;
-}
-html h1, html h2, html p, html li{
-    font-family: roboto-light;
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--main-black);
 }
 
-html p, html li{
-    font-size: 20px;
-    padding: 0em 8em;
+.right-nav{
+    position: absolute;
+    right: 10%;
+    top: 10px;
+}
+
+.right-nav a:first-child{
+    font-family: 'Montserrat-Bold';
+    color: var(--main-blue);
+    margin-right: 60px;
+}
+
+.content-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 #roles{
-    list-style-position: inside;
-}
-
-#dem{
     text-align: center;
 }
 
-#d1, #d2{
-    width: 55vh;
-    height: 35vh;
+.space{
+    display: flex;
+    margin-bottom: 50px;
 }
 
-#d1{
-    float: left;
-}
-
-#d2{
-    float: right;
-}
-
-#ds{
-    text-align: left;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-#sketch{
-    padding-top: 5%;
-}
-
-#redesign{
-    padding-top: 5%;
-}
-
-#r1, #r2, #r3, #r4{
-    width: 50vh;
-    height: 40vh;
-}
-
-.r1{
-    padding-top: 5%;
-}
-
-.column{
-    padding-top: 5%;
-    text-align: center;
+.renderings, #rdimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #rend1{
-    width: 40vh;
-    height: 55vh;
-}
-#rendering{
-    padding-top: 5%;
-    text-align: center;
+    width: 25%;
+    height: 25%;
 }
 
-#final{
-    padding-top: 3%;
+#r1{
+    width: 45%;
+    height: 45%;
 }
 
-.footer{
-    overflow: hidden;
-    width: 100%;
-    height: 15vh;
-    padding-top: 10px;
+.info{
+    display: flex;
 }
 
-.linkedin{
-    width: 50%;
-    overflow: hidden;
 
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 50px;
+    right: 5%;
 }
 
-.ig{
-    width: 50%;
-    float: left;
+.social{
+    position: fixed;
+    left: 5%;
 }
 
-#insta{
-    display:block;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    float: right;
-    margin-right: 5px;
+.social > a{
+    margin-right: 60px;
 }
 
-#linkin{
-    display: block;
-    margin: auto;
-    width: 30px;
-    height: 30px;
-    float: left;
-    margin-left: 5px;
+footer > p, .social > a {
+    font-weight: 500;
 }

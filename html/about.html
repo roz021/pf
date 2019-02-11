@@ -3,107 +3,61 @@
 <html>
     <head>
         <title>Roy Zhang</title>
-        <link href="../css/index.css" rel="stylesheet">
         <link href="../css/about.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/handlebars-v4.0.11.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="../css/animate.css">
     </head>
     
     <body>
-    <div class="topnav">
-            <div class="work">
-            <a href="../index.html">Work</a>
-            </div>
-            <div class="about">
-            <a class="active" href="about.html">About</a>
-            </div>
-        </div>
+            <nav>
 
-        <div class="container-fluid" id="mybio">
-            <div class ="row">
-                <div class="col-lg">
-                    <img src="../images/me.JPG" id="me">
-                </div>
-                <div class="col-lg">
-                        <p id="bio">Hello! </p>
-                        <p id="biocontent">my name is Roy Zhang. I currently am an undergraduate student
-                                from University of California, San Diego majoring in human
-                                computer interaction and minoring in computer science.</p>
-                                
-                            
-                            <p>   As a designer, my focus lies in user experience and visual design so 
+                    <a href="#" class="name">Roy Zhang</a>
+                    <div class="right-nav">
+                        <a href="../index.html">Work</a>
+                        <a href="#">About</a>
+                    </div>
+                </nav>
+
+                <div class="content">
+                    <div class="photo">
+                        <div class="rectangle"></div>
+                        <img src="../images/me.JPG" id="me">
+                    </div>
+                    <div class="bio animated fadeInRight">
+                        <h1>Hello!<br><br><br>
+                        
+                            my name is Roy Zhang. I currently am an undergraduate student
+                            from University of California, San Diego majoring in human
+                            computer interaction and minoring in computer science. <br><br><br>
+
+                            As a designer, my focus lies in user experience and visual design so 
                                 that users can have an immersive, yet unobtrusive experience. I 
                                 believe that good UX/UI is intuitive, but also interesting. I work 
                                 passionately with all my projects, and love pushing my limits to 
-                                see what creative ideas I can come up with.</p>
-                                
-                            
-                            <p>    During my downtime I usually am out taking <a href="photography.html"> photos</a> with friends
+                                see what creative ideas I can come up with.<br><br><br>
+
+                                During my downtime I usually am out taking photos with friends
                                 playing with my cats (I own four), or watching movies (possibly with
-                                my cats).</p>
-                                
-                            
-                             <p>   The best way to reach me is through email - royzhang7603@gmail.com </p>
-                                
-                            <p>
-                                <a target="_blank" rel="noopener noreferrer" href="../images/resume.pdf" id="resume">View my r&eacute;sum&eacute;</a>
-                                </p> 
+                                my cats). <br><br><br>                               
+
+                                The best way to reach me is through email - royzhang7603@gmail.com<br><br><br>
+
+                                <a class="blue-text" target="_blank" rel="noopener noreferrer" href="../images/resume.pdf" id="resume">View my r&eacute;sum&eacute;</a>
+                        </h1>
+                    </div>
                 </div>
+
+    <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/ro.yz/">Instagram</a>
+                <a href="https://www.linkedin.com/in/roy-zhang-b5b289171/">Linkedin</a>
             </div>
-        </div>
-
-        <!-- <div class="maincontent">
-        <div class="myphoto">
-            <img src="../images/me.JPG" id="me">
-        </div>
-
-        <div class="conatiner" id="mybio">
-            <p id="bio">Hello! </p>
-            <p id="biocontent">my name is Roy Zhang. I currently am an undergraduate student
-                    from University of California, San Diego majoring in human
-                    computer interaction and minoring in computer science.</p>
-                    
-                
-                <p>   As a designer, my focus lies in user experience and visual design so 
-                    that users can have an immersive, yet unobtrusive experience. I 
-                    believe that good UX/UI is intuitive, but also interesting. I work 
-                    passionately with all my projects, and love pushing my limits to 
-                    see what creative ideas I can come up with.</p>
-                    
-                
-                <p>    During my downtime I usually am out taking <a href="photography.html"> photos</a> with friends
-                    playing with my cats (I own four), or watching movies (possibly with
-                    my cats).</p>
-                    
-                
-                 <p>   The best way to reach me is through email - royzhang7603@gmail.com </p>
-                    
-                <p>
-                    <a target="_blank" rel="noopener noreferrer" href="../images/resume.pdf" id="resume">View my r&eacute;sum&eacute;</a>
-                    </p>
-
-                                    
-        </div>
-    </div> -->
-    <div class="footer">
-            <div class="ig">
-                <a href="instagram.com/ro.yz">
-                <img src="../images/Instagram.png" id="insta">
-                </a>
-            </div>
-            <div class="linkedin">
-                <a href="">
-                <img src="../images/Linkedin.png" id="linkin">
-                </a>
-            </div>
-        </div>
-
+            <p>Roy Zhang</p>
+        </footer>
+        <script src="../css/WOW-master/dist/wow.min.js">
+        </script>
+        <script>
+        new WOW().init();
+        </script>
     </body>
     </html>

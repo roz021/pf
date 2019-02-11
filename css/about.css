@@ -1,41 +1,127 @@
 @font-face{
-    font-family: roboto-light;
-    src: url(../fonts/roboto/Roboto-Light.ttf);
+    font-family: Avenir;
+    src: url(avenir/AvenirLTStd-Book.otf);
 }
 
 @font-face{
-    font-family: roboto;
-    src: url(../fonts/roboto/Roboto-Regular.ttf)
+    font-family: Avenir-Med;
+    src: url(avenir/AvenirLTStd-Roman.otf);
 }
-body{
-    width: 100%;
-    margin: auto;
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
 }
-.maincontent{
-    overflow: hidden;
+
+html{
+    font-family: 'Montserrat-Light', sans-serif;
+
+}
+
+html, body{
     width: 100%;
     height: 100%;
-    margin: auto;
 }
 
-.myphoto{
-    width: 50%;
-    float: left;
+h1{
+    font-size: 20px;
+    font-family: Avenir, sans-serif !important;
+}
+.blue-text{
+    color: var(--main-blue);
+}
+:root{
+    --main-black: #2E2E2E;
+    --main-blue: #0697F2;
+    --sec-blue: #BFE6FF;
+    --main-gray: #C1C1C1;
+    --sec-gray: #F7F7F7;
 }
 
+a{
+    font-size: 17px;
+    color: var(--main-black);
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    top: 50px;
+    left: 5%;
+    line-height: 50px;
+    width: 100%;
+}
+
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--main-black);
+}
+
+.right-nav{
+    position: fixed;
+    right: 5%;
+    top: 50px;
+}
+
+.right-nav a:last-child{
+    font-family: 'Montserrat-Bold';
+    color: var(--main-blue);
+    margin-left: 60px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 8% auto;
+}
+
+.photo, .bio{
+    margin: 0 2%;
+}
+
+.bio{
+    margin-top: 5%;
+}
+
+.rectangle{
+    width: 500px;
+    height: 700px;
+    background-color: var(--main-blue);
+    z-index: -1;
+    position: absolute;
+    top: 175px;
+    left: 240px;
+}
+.bio h1{
+    /* font-family: 'Montserrat-Thin', sans-serif; */
+}
 #me{
-    width: 50em;
-    height: 90%;
-    border-radius: 2%;
+    width: 500px;
+    height: 700px;
 }
 
-#bio{
-    font-size: 35px;
+footer{
+    position: fixed;
+    bottom: 50px;
+    right: 5%;
 }
 
+.social{
+    position: fixed;
+    left: 5%;
+}
 
-#mybio p{
-    font-family: roboto-light;
-    font-size: 22px;
-    padding-top: 5%;
+.social > a{
+    margin-right: 60px;
+    text-decoration: none;
+}
+
+footer > p, .social > a {
+    font-weight: 500;
 }

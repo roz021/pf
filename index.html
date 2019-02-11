@@ -1,77 +1,96 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <head>
-        <title>Roy Zhang</title>
-        <link href="css/index.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></</script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/handlebars-v4.0.11.js"></script>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roy Zhang</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
 
-    <body>
-        <div class="topnav">
-            <div class="work">
-            <a class="active" href="index.html">Work</a>
-            </div>
-            <div class="about">
+<body>
+    <div class="bg-lines"></div>
+
+    <nav>
+
+        <a href="#" class="name">Roy Zhang</a>
+        <div class="right-nav">
+            <a href="#">Work</a>
             <a href="html/about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="wrapper-content">
+        <div class="landing animated fadeInUp">
+            <h2>Hi I’m <span id="blue">Roy</span>. I am a <span id="blue">product designer</span> specializing in
+                human computer interaction who strives
+                to create memorable experiences.</h2>
+
+            <div class="skills">
+                <div class="skills-box animated fadeInUp delay-1">
+                    <h3>Product designer</h3>
+                </div>
+                <div class="skills-box animated fadeInUp delay-2">
+                    <h3>UI/UX designer</h3>
+                </div>
+                <div class="skills-box animated fadeInUp delay-3">
+                    <h3>Front-end developer</h3>
+                </div>
+            </div>
+
+            <div class="view-work animated pulse delay-4 infinite">
+                <h4>View My Work</h4>
+                <img src="images/drop-arrow.png" class="drop-arrow">
             </div>
         </div>
 
-        <div class="landing">
-            <p id="hello">Hello, my name's Roy.</p>
-            <p id="curr">I'm currently an undergraduate student at University of California, San Diego <br/>
-            studying human computer interaction and computer science.</p>
-        </div>
-    <div class="content cleafix">
-        
-        <div class="fitfam">
-            <a href="html/fitfam.html" id="fitfam">
-                <p class="text-description">FitFam</p>
-                <p class="text-description-bot">Mobile App Design</p>
-            <img src="images/FFLogo.png" id="fflogo">
 
-            </a>
-        </div>
-
-    <div class ="secondwrap">
-        <div class="secondrow" id="mandoline">
-            <a href="html/mandoline.html">
-                <p class="text-description">Mandoline Redesign</p>
-                <p class="text-description-bot">Interaction Design Project</p>
-                <img src="images/mando.png" id="mando">
-            </a>
-        </div>
-        <div class="secondrow" id="photo">
-            <a href="html/photography.html">
-                <p class="text-description">My Photography</p>
-                <p class="text-description-bot"></p>
-                <img src="images/camara.png" id="photography">
-            </a>
-        </div>
-        </div>
-
-        </div>
-
-    <div class="content clearfix"></div>
-        <div class="footer">
-            <div class="ig">
-                <a href="https://www.instagram.com/ro.yz/">
-                <img src="images/Instagram.png" id="insta">
-                </a>
+        <div class="work-section">
+            <div class="left wow fadeInLeft">
+                <div class="work-1">
+                    <img class="fflogo wow fadeInLeft " src="images/logotest-shadow.png" alt="fit-fam">
+                    <h1 class="title">FitFam<br><span id="gray-text">Mobile App Design</span></h1>
+                    <div class="rec-dark-1 wow fadeInLeft"></div>
+                    <div class="rec-light-1 wow fadeInLeft"></div>
+                    <a href="html/fitfam.html"><h1 class="view">View Project</h1></a>
+                </div>
             </div>
-            <div class="linkedin">
-                <a href="https://www.linkedin.com/in/roy-zhang-b5b289171/">
-                <img src="images/Linkedin.png" id="linkin">
-                </a>
+            <div class="right wow fadeInRight">
+                <div class="work-2">
+                    <img class="mandoline wow fadeInRight" src="images/mand.png" alt="mandoline">
+                    <h1 class="title">Mandoline Redesign<br><span id="gray-text">Interaction Design</span></h1>
+                    <div class="rec-dark-2 wow fadeInRight"></div>
+                    <div class="rec-light-2 wow fadeInRight"></div>
+                    <a href="html/mandoline.html"><h1 class="view">View Project</h1></a>
+                </div>
+            </div>
+
+            <div class="left wow fadeInLeft">
+                <div class="work-3">
+                    <img class="photography wow fadeInLeft" src="images/camara.png" alt="photography">
+                    <h1 class="title">My Photography</h1>
+                    <div class="rec-dark-3 wow fadeInLeft"></div>
+                    <div class="rec-light-3 wow fadeInLeft"></div>
+                    <a href="html/photography.html"><h1 class="view">View Project</h1></a>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/ro.yz/">Instagram</a>
+            <a href="https://www.linkedin.com/in/roy-zhang-b5b289171/">Linkedin</a>
+        </div>
+        <p>Roy Zhang</p>
+    </footer>
+
+    <script src="css/WOW-master/dist/wow.min.js">
+    </script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+
 </html>

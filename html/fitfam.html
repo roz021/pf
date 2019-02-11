@@ -4,259 +4,163 @@
 
 <head>
     <title>FitFam</title>
-    <link href="../css/index.css" rel="stylesheet">
     <link href="../css/fitfam.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/handlebars-v4.0.11.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="topnav">
-        <div class="work">
-            <a class="active" href="../index.html">Work</a>
-        </div>
-        <div class="about">
+    <nav>
+
+        <a href="#" class="name">Roy Zhang</a>
+        <div class="right-nav">
+            <a href="../index.html">Work</a>
             <a href="about.html">About</a>
         </div>
+    </nav>
+
+    <div class="top-banner">
+        <img class="banner-top" src="../images/FF-final/top banner.png">
     </div>
 
-    <!-- <div class="sidenav">
-            <a href="#empathize">Empathize</a>
-            <a href="#define">Define</a>
-            <a href="#ideate">Ideate</a>
-            <a href="#prototypes">Prototype</a>
-            <a href="#test">Test</a>
-          </div> -->
-
-    <div class="header">
-        <img id="head" src="../images/FF/finalprod.png">
-    </div>
-
-    <div class="content">
-        <div class="container" id="overview">
-            <h1>Overview</h1>
-            <p>This fall I undertook a quarter long project for a design course at UCSD where I worked on an app with
-                fellow
-                classmates, Edwin Fu and Mayu Wilson. The objective was to create something that enhanced one or more
-                of
-                the following aspects: health, recreation, or family. </p>
+    <div class="content-wrapper">
+        <h2>Overview</h2>
+        <h3>This past fall me and two other designers decided to come 
+                up with a solution to UCSD’s lack of social aptitude. We felt 
+                that there simply wasn’t enough ways for students to meet 
+                each other, especially on such a large campus. We gave 
+                ourselves 8 weeks to fully design an app that could tackle 
+                this issue.</h3>
+        <h2>My Role</h2>
+        <h3 id="roles">User Researcher<br>Designer<br>Data Analyst</h3>
+        <h2>Design Process</h2>
+        <div class="process">
+            <img class="process-banner" src="../images/FF-final/designprocess.png">
         </div>
+        <h1>EMPATHIZE</h1>
+        <h2>Interviews & Shadowing</h2>
+        <h3>We began interviewing our friends and peers about the lacking social
+                quality found on this campus. From this we found that there just were
+                not many ways students can meet each other. A weak Greek Life and
+                non-existant sports culture were among several reasons for this.
+            
+            <br>
+            Many students expressed how it’s also hard to strike up conversation
+            with peers if there isn’t a common thread to connect them. <br>
 
-        <div class="container" id="myrole">
-            <h2>My Role</h2>
-            <ul id="roles">
-                <li>User Researcher</li>
-                <li>Product Designer</li>
-                <li>Data Analyst</li>
-                <li>Lead Developer</li>
-            </ul>
-        </div>
+            We noticed that almost all students mentioned that throughout the
+week they would go exercise at the school gym at least once, although
+they would typically go alone.
+        </h3>
 
-        <div class="container" id="banner">
-            <img id="banner" src="../images/FF/ffmockup.png">
-        </div>
-    </div>
+        <h1>DEFINE</h1>
+        <h2>Pain Points</h2>
+        <h3 class="italicize">It’s hard to meet new people because many are already situated in 
+                cliques, and are unwilling to mingle without some common thread.
+            <br>
+            There aren’t many opportunities to meet people such as football
+            games, parties, or club socials.<br>
 
-    <div class="container" id="designprocess">
-        <h1 id="h1"><strong>Design Process</strong></h1>
-        <img id="process" src="../images/designprocess.png">
+            A lot of students are busy with coursework or a job and can’t make it 
+to the limited number of socials on campus.
+            </h3>
 
-        <p>The prompt given to us was extremely broad to give us as much creative freedom as possible. We first needed
-            to choose one activity which we
-            believed may have room for enhancement that would be tangible through an app. In our case, we chose working
-            out. We followed a standard design process which I will explore further now. </p>
-    </div>
-
-    <div class="container" id="needfinding">
-    <h1 id="empathize"><strong>Empathize</strong></h1>
-        <h2>Needfinding</h2>
-        <p>Once we knew what our activity was, we began making observations. Me and my teammates each interviewed two
-            individuals in order to
-            create personas for our target audience in hopes of better understanding who we were designing this app
-            for. We chose to limit our target
-            demographic to just college students because our aim was for this app to first be adopted by UCSD, and
-            later by other college campuses. </p>
-
-        <p>We adopted the double-diamond process by first going as broad as possible. This meant interviewing a wide
-            variety of students in order to
-            benefit the whole college community, then once we found a tangible problem, we tightened our observations
-            to look for design opportunities.
-            Our interviews consisted of both participant observations as well as diary studies.</p>
-    </div>
-
-    <div class="container" id="ourresults">
-        <h1 id="define"><strong>Define</strong></h1>
-        <h2>Our Results</h2>
-        <p>We found that the biggest problem for college students is finding someone to work out with. There were also
-            four obvious categories of students
-            who worked out: those who did so actively (daily), moderately (between three-five days a week), rarely
-            (less than three times a week), and finally
-            those who did not work out at all. In all cases, we found striking similarities.</p>
-
-        <ul id="results">
-            <li>Social accountability is a huge factor in committing to working out</li>
-            <li>Besides getting you to go to the gym, having a buddy who can spot you is vital in getting the most
-                progress </li>
-            <li>It is surprisingly hard to meet new people, especially when many are already situated within cliques</li>
-            <li>For students who bus to school, sometimes the trip to the gym is a waste because it is so packed, and
-                can get chaotic</li>
-            <li>Students find it hard to coordinate schedules with their friends because of how variable everyone&#39s
-                lives are</li>
-        </ul>
-    </div>
-
-    <div class="container" id="personas">
         <h2>Personas</h2>
-        <img id="personas" src="../images/FF/personas.png">
-    </div>
+        <div class="person-one">
+            <img id="person1" src="../images/FF-final/person1.png">
+            <h2 class="blue-text" id="name">John Lu</h2>
+            <h3 id="points">Active in his fraternity, but wants to expand his social circle.<br><br>
+            
+            Struggles to go out to socials because school takes up too much of his time.<br><br>
+        
+            Feels shunned when trying to talk to new people.<br><br>
+            </div>
+            <div class="person-two">
+            <img id="person2" src="../images/FF-final/person2.png">
+            <h2 class="blue-text" id="name">Amanda Kerning</h2>
+            <h3 id="points">Tried to join organizatiosn on campus, but was either rejected or felt that it wasn't what she was looking for.<br><br>
+            
+            Her part time job makes it hard for her to make time to socialize and meet new people.<br><br>
+        
+        A social butterfly but feels she doesn't have the opportunity to show that side of herself</h3>
+        </h3>
+        </div>
 
-    <div class="container" id="probtoproto">
-        <h1 id="ideate"><strong>Ideate</strong></h1>
-        <h2>The Problem</h2>
-        <p><strong>How can we make finding new people to exercise with easier for college students?</strong></p>
-        <h2>First Steps</h2>
-        <p>From the data we collected, we already had a good idea about why students were experiencing this problem, so
-            next we decided to formulate a
-            point of view that we could use as a guideline for the rest of the process. </p>
-        <p><strong>Exercise & healthcare is easiest and most enjoyable when there is a sense of community</strong></p>
+        <h2>Objective</h2>
+        <h3>What we needed was to create a way for students to 
+                easily interact with each other through some commonality to 
+                combat the awkwardness many students feel when trying to
+                make friends.</h3>
+        
+        <h1>IDEATE</h1>
         <h2>Our Solution</h2>
-        <p>By designing with the four personas in mind, we concluded that the biggest problem is finding new people to
-            work out with (which includes issues such as scheduling conflicts,
-            and difficulty in meeting new people on a campus that isn&#39t socially focused) while also noting how people
-            who are not gym rats may not know how to properly exercise or 
-            may not even know where to begin. Thus, our app creates a community by using the UCSD student database to
-            create accounts attached to their school email. As long as a student
-            chooses to use this campus resource, they will instantly be connected with all other students on campus.
-            Users are able to sift through students which they can filter by gender,
-            age and skill level. Of course, if this app is a fitness app there must be documentation that helps
-            students learn new exercises and create routines for themselves. </p>
-        <h1 id="prototypes"><strong>Prototype</strong></h1>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
+        <h3>After diverging and converging past many ideas, we decided to use
+                exercising as the gateway for people to meet each other since most
+                students had time to workout a couple times a week.<br>
+            
+                We decided to create FitFam, a way for students to interact by 
+                exercising and achieving their fitness goals. </h3>
+        
+        <h2>Task Flow</h2>
+        <h3>We came up with some storyboards to give us an idea of how and 
+                when users would use our app, then used that to create a task flow</h3>
+        <img class="task-flow" src="../images/FF-final/task-flow.png">
 
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="../images/FF/ppsignup.png">
-                </div>
+        <h2>Lo-Fi Sketches & Wires</h2>
+        <h3>Based off of the pain points and personas we sketched out some 
+                options to test. Our goal was creating an enjoyable user experience
+                that welcomes all students. </h3>
+        <img class="wires" src="../images/FF-final/lo-fi.png">
+        
+        <h1>PROTOTYPE & TESTING</h1>
+        <h2>Mid-Fi Prototype</h2>
+        <h3>Moving forward we converted our sketches into a workable prototype
+                in Adobe XD. Below are a couple key features.</h3>
+        
+        <img class="mid-fi" src="../images/FF-final/mid-fi.png">
 
-                <div class="item">
-                    <img src="../images/FF/ppuserflow.png">
-                </div>
-
-                <div class="item">
-                    <img src="../images/FF/ppotherfeatures.png">
-                </div>
-            </div>
-
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <h2>Testing Iterations</h2>
+        <h3>We ran a heuristic evaluation based off of Jakob Nielsen’s Usability Heuristics.
+                Based off of our findings we tweaked the sections that user’s had the most
+                issues with. <br>
+            
+                We then ran A/B Tests to confirm our redesign was an improvement. </h3>
+        
+        <div class="test-wrapper">
+            <img class="A" src="../images/FF-final/test-a.png">
+            <img class="B" src="../images/FF-final/test-b.png">
         </div>
+
+        <h3>We repeated this process until we were satisfied with our results
+                which can be seen below</h3>
+
+        <h2>Hi-Fi Prototype</h2>
+        <h3>Our final design focused on integrating a beautiful design with ease of use.
+                Users should easily be able to figure out how to use the app and start 
+                connecting with other students.</h3>
+        <img class="hi-fi-banner" src="../images/FF-final/hi-fi-banner.png">
+
+
+
+        <h2>Clickable Prototype</h2>
+        <iframe class="click" src="https://marvelapp.com/b04fi71?emb=1&iosapp=false&frameless=false" width="413" height="844" allowTransparency="true" frameborder="0"></iframe>
+
+        <h2>Conclusion</h2>
+        <h3>This was an amazing project to undertake because I felt that it taught me a lot about 
+                what it takes to be a designer. This was one of the first few large projects I’ve ever done,
+                so much of this was a new experience for me. I learned a lot about core design concepts,
+                as well as strengthening my skills with software. I had a lot of fun watching this app go 
+                from just a couple sticky notes on a white board to what it is now. </h3>
     </div>
-    <div class="container" id="wireframes">
-        <h2>Wireframes</h2>
-        <p>Now that we had a prototype, we were ready to proceed to wireframes. We primarily used Adobe XD and Sketch
-            for this.</p>
-        <img id="wires" src="../images/FF/wireframeflow.png">
-    </div>
 
-    <div class="container" id="testing">
-        <h1 id="test"><strong>Test</strong></h1>
-        <h2>Testing & Iteration</h2>
-        <p>Once we had a working prototype coded through HTML/CSS/JS, we began running some user tests. Inititally we did so by 
-            analyzing our working prototype via Jakob Nielsen's 10 Usability Heuristics.
-        </p>
-        <p>As a result we found issues with our information scent. The user flow was choppy, and our testers were seen
-            to use the back button a lot
-            among other things. <a target="_blank" rel="noopener noreferrer" href="../images/FF/initialtests.pdf">You
-                may view our full testing notes as well as the planned changes we wanted to incorporate before our next
-                iteration.</a></p>
-        <p>To ensure that the breakdowns and pain points we noted were being resolved, we then ran A/B tests with our
-            original design and redesign (the focus being on the friends page).
-            We hypothesized that our redesign (version B) would do much better, and this was confirmed <a target="_blank"
-                rel="noopener noreferrer" href="../images/FF/abtests.pdf">by our results.</a></p>
 
-        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="../images/FF/verA.png">
-                </div>
-
-                <div class="item">
-                    <img src="../images/FF/verB.png">
-                </div>
-
-            </div>
-
-            <a class="left carousel-control" href="#myCarousel2" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel2" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>
+    <footer>
+        <div class="social">
+            <a href="https://www.instagram.com/ro.yz/">Instagram</a>
+            <a href="https://www.linkedin.com/in/roy-zhang-b5b289171/">Linkedin</a>
         </div>
-    </div>
-
-    <div class="container" id="final">
-        <h1>Final Product</h1>
-    </div>
-
-    <div class="container" id="finalproducts">
-        <img id="multiple" src="../images/FF/ffheader.png">
-        <br/>
-        <img id="hub" src="../images/FF/socialhub.png">
-        <br/>
-        <img id="meet" src="../images/FF/friends.png">
-        <br/>
-        <img id="commit" src="../images/FF/calend.png">
-        <br/>
-    </div>
-
-    <div class="container" id="finalcomments">
-        <h1>Final Comments</h1>
-        <p>Since this was one of the first bigger projects that I&#39ve tackled, I learned a great deal about what it takes to create an app from the ground up. I had a lot of fun going through
-                iterations and watching the app go from a mess, to something that I&#39m pretty proud of. Creating icons, the logo, and coming up with a brand image was all a new experience for me,
-                but thanks to Mayu and Edwin, I wasn&#39t alone. I wanted to also thank my TA Kandarp for making the process a lot smoother overall.</p>
-    </div>
-
-
-    <div class="content clearfix">
-            <div class="footer">
-                <div class="ig">
-                    <a href="https://www.instagram.com/ro.yz/">
-                    <img src="../images/Instagram.png" id="insta">
-                    </a>
-                </div>
-                <div class="linkedin">
-                    <a href="https://www.linkedin.com/in/roy-zhang-b5b289171/">
-                    <img src="../images/Linkedin.png" id="linkin">
-                    </a>
-                </div>
-            </div>
-            </div>
+        <p>Roy Zhang</p>
+    </footer>
 </body>
 
 </html>
