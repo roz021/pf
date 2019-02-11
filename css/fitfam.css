@@ -131,6 +131,8 @@ img{
     height: 200px;
 }
 .person-one, .person-two{
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
