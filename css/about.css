@@ -73,7 +73,7 @@ nav a{
 }
 
 .right-nav a:last-child{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat';
     color: var(--main-blue);
     margin-left: 60px;
 }

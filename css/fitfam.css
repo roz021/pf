@@ -104,7 +104,7 @@ nav a{
 }
 
 .right-nav a:first-child{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat';
     color: var(--main-blue);
     margin-right: 60px;
 }

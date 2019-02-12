@@ -42,9 +42,9 @@ html, body{
 }
 
 h1{
-    font-family: 'Montserrat-Semibold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 47px;
-    font-weight: 650;
+    font-weight: 600;
     color: var(--main-black);
 }
 
@@ -102,7 +102,7 @@ nav{
 
 nav a{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     color: var(--main-black);
 }
 
@@ -113,7 +113,7 @@ nav a{
 }
 
 .right-nav a:first-child{
-    font-family: 'Montserrat-Bold';
+    font-family: 'Montserrat';
     color: var(--main-blue);
     margin-right: 60px;
 }
