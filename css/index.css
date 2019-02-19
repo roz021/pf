@@ -184,7 +184,7 @@ nav a{
 .work-1{
     text-align: left;
     margin-left: 380px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #gray-text{
@@ -194,6 +194,13 @@ nav a{
     margin-top: 140px;
 }
 
+.venmo{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 360px;
+    top: 1675px;
+}
 .rec-dark-2{
     background-color: var(--main-blue);
     height: 335px;
@@ -213,18 +220,26 @@ nav a{
     right: 261px;
     z-index: -1; 
 }
-.mandoline{
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    right: 300px;
-    top: 1625px;
-}
+
 
 .work-2{
     text-align: right;
     margin-right: 380px;
     margin-top: 265px;
+}
+
+.mandoline{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 330px;
+    top: 2150px;
+}
+
+.work-3{
+    text-align: left;
+    margin-left: 380px;
+    margin-top: 215px;
 }
 
 .rec-dark-3{
@@ -246,18 +261,42 @@ nav a{
     left: 200px;
     z-index: -2; 
 }
+
+
+
+
 .photography{
     width: 215px;
     height: 128px;
     position: absolute;
-    left: 320px;
-    top: 2200px;
+    right: 320px;
+    top: 2750px;
 }
 
-.work-3{
-    text-align: left;
-    margin-left: 380px;
+.work-4{
+    text-align: right;
+    margin-right: 380px;
     margin-top: 250px;
+}
+
+.rec-dark-4{
+    background-color: var(--main-blue);
+    height: 335px;
+    width: 335px;
+    position: absolute;
+    top: 2600px;
+    right: 200px;
+    z-index: -2;
+}
+
+.rec-light-4{
+    background-color: var(--sec-blue);
+    height: 335px;
+    width: 335px;
+    position: absolute;
+    top: 2625px;
+    right: 261px;
+    z-index: -1; 
 }
 /* BACKGROUND LINES */
 

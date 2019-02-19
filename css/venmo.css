@@ -1,0 +1,257 @@
+
+@font-face{
+    font-family: Avenir;
+    src: url(avenir/AvenirLTStd-Book.otf);
+}
+
+@font-face{
+    font-family: Avenir-Med;
+    src: url(avenir/AvenirLTStd-Roman.otf);
+}
+
+@font-face{
+    font-family: Avenir-Bold;
+    src: url(avenir/AvenirLTStd-Black.otf);
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+:root{
+    --main-black: #2E2E2E;
+    --main-blue: #0697F2;
+    --sec-blue: #BFE6FF;
+    --main-gray: #C1C1C1;
+    --sec-gray: #F7F7F7;
+}
+
+html{
+    font-family: Avenir, sans-serif;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin-left: 10%;
+    font-family: Avenir-Bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+h2{
+    margin-left: 10%;
+    font-family: Avenir-Med;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+h3{
+    padding: 0 10%;
+    font-family: Avenir;
+    font-weight: 200;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 17px;
+    color: var(--main-gray);
+}
+
+a{
+    font-size: 17px;
+    color: var(--main-black);
+    text-decoration: none;
+}
+
+.blue-text{
+    color: var(--main-blue);
+}
+
+/*  NAV*/
+nav{
+    position: absolute;
+    top: 25px;
+    /* left: 5%; */
+    line-height: 50px;
+    width: 100%;
+}
+
+.name{
+    margin-left: 5%;
+}
+
+nav a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: var(--main-black);
+}
+
+.right-nav{
+    position: absolute;
+    right: 5%;
+    top: 5px;
+}
+
+.right-nav a:first-child{
+    font-family: 'Montserrat';
+    color: var(--main-blue);
+    margin-right: 60px;
+}
+/* FOOTER */
+footer{
+    position: fixed;
+    bottom: 50px;
+    right: 5%;
+}
+
+.social{
+    position: fixed;
+    left: 5%;
+}
+
+.social > a{
+    margin-right: 60px;
+}
+
+footer > p, .social > a {
+    font-weight: 500;
+}
+
+/*CONTENT*/
+
+
+.top-banner{
+    /* width: 100%; */
+    width: 100%;
+    /* margin-top: 5%; */
+}
+.banner-top{
+    /* width: vw; */
+    max-width: 100%;
+}
+
+.content-wrapper{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom:10%;
+}
+
+#roles{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.process-banner{
+    width: 800px;
+    height: 450px;
+}
+
+.personas{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.moscow{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.card-flow{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.task-flow{
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.sketches{
+    width: 35%;
+    height: 35%;
+
+}
+.sketch-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.wires{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.tests{
+    width: 75%;
+    margin-bottom: 10%;
+}
+
+#test-2{
+    margin-left: 15%;
+}
+
+.final{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#top{
+    margin-top: 5%;
+}
+
+.pp{
+    width: 100vw;
+    margin: 3% 0;
+    max-width: 95%;
+}
+
+.ppf{
+    width: 100vw;
+    max-width: 95%;
+}
+
+.l{
+    margin-left: 5%;
+}
+
+.r{
+    margin-right: 5%;
+}
+
+.pp-wrapper{
+    margin-top: -8%;
+    margin-bottom: 8%;
+}
+
+.validation{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.vid-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.demo{
+    display: block;
+    margin-bottom:10%;
+    margin-top: 5%;
+    width: 90%;
+}
