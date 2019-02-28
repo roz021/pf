@@ -7,7 +7,7 @@
     <title>Roy Zhang</title>
     <link href="css/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 
@@ -23,11 +23,26 @@
         </div>
     </nav>
 
+    <div class="mobile-nav">
+        <a id="name" href="#">Roy Zhang</a>
+        <a id="hamburger" href="javascript:void(0);" onclick="openMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </a>
+    </div>
+
+    <div id="menu" class="drop">
+        <a class="items" href="index.html">Work</a>
+        <a class="items" href="html/about.html">About</a>
+
+    </div>
     <div class="wrapper-content">
         <div class="landing animated fadeInUp">
             <h2>Hi I’m <span id="blue">Roy</span>. I am a <span id="blue">product designer</span> specializing in
                 human computer interaction who strives
                 to create memorable experiences.</h2>
+
 
             <div class="skills">
                 <div class="skills-box animated fadeInUp delay-1">
@@ -48,44 +63,132 @@
         </div>
 
 
+
+
+        <!-- <div class="work-section">
+            <div class="work-gallery">
+                <div class="project">
+                    <a href="html/venmo.html">
+                        <div class="background-venmo">
+                            <div class="project-icon"></div>
+                            <div class="project-description"></div>
+                        </div>
+                        <div class="project-description-sm"></div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="html/fitfam.html">
+                        <div class="background-fitfam">
+                            <div class="project-icon"></div>
+                            <div class="project-description"></div>
+                        </div>
+                        <div class="project-description-sm"></div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="html/mandoline.html">
+                        <div class="background-mandoline">
+                            <div class="project-icon"></div>
+                            <div class="project-description"></div>
+                        </div>
+                        <div class="project-description-sm"></div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="html/other-design.html">
+                        <div class="background-design">
+                            <div class="project-icon"></div>
+                            <div class="project-description"></div>
+                        </div>
+                        <div class="project-description-sm"></div>
+                    </a>
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="work-section">
             <div class="left wow fadeInLeft">
                 <div class="work-1">
-                    <img class="fflogo wow fadeInLeft " src="images/logotest-shadow.png" alt="fit-fam">
-                    <a href="html/fitfam.html">
-                    <h1 class="title">FitFam<br><span id="gray-text">Mobile App Design</span></h1>
-                    <div class="rec-dark-1 wow fadeInLeft"></div>
-                    <div class="rec-light-1 wow fadeInLeft"></div>
-                    <h1 class="view">View Project</h1>
+                    <div class="graphic">
+                        <img class="fflogo wow fadeInLeft " src="images/logotest-shadow.png" alt="fit-fam">
+                        <a href="html/fitfam.html">
+                            <div class="rec-dark-1 wow fadeInLeft"></div>
+                            <div class="rec-light-1 wow fadeInLeft"></div>
+                    </div>
+                    <div class="caption">
+                        <h1 class="title">FitFam<br><span id="gray-text">Mobile App Design</span></h1>
+                        <h1 class="view">View Project</h1>
+                    </div>
+                    <div class="sum">
+                        <h1>FitFam</h1>
+                        <h3>Mobile App Design for student-centered fitness app.</h3>
+                    </div>
                     </a>
                 </div>
             </div>
             <div class="right wow fadeInRight">
                 <div class="work-2">
                     <img class="venmo wow fadeInRight" src="images/venmo/venmo-logo.png" alt="venmo">
-                    <a href="html/venmo.html"><h1 class="title">Venmo Case Study<br><span id="gray-text">Mobile App Design</span></h1>
-                    <div class="rec-dark-2 wow fadeInRight"></div>
-                    <div class="rec-light-2 wow fadeInRight"></div>
-                    <h1 class="view">View Project</h1></a>
+                    <a href="html/venmo.html">
+                        <h1 class="title">Venmo Case Study<br><span id="gray-text">Mobile App Design</span></h1>
+                        <div class="rec-dark-2 wow fadeInRight"></div>
+                        <div class="rec-light-2 wow fadeInRight"></div>
+                        <h1 class="view">View Project</h1>
+                        <div class="sum">
+                            <h1>Venmo Case Study</h1>
+                            <h3>UX/UI Case study on the mobile payment app, Venmo.</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
 
             <div class="left wow fadeInLeft">
                 <div class="work-3">
                     <img class="mandoline wow fadeInLeft" src="images/mand.png" alt="mandoline">
-                    <a href="html/mandoline.html"><h1 class="title">Mandoline Redesign<br><span id="gray-text">Interaction Design</span></h1>
-                    <div class="rec-dark-3 wow fadeInLeft"></div>
-                    <div class="rec-light-3 wow fadeInLeft"></div>
-                   <h1 class="view">View Project</h1></a>
+                    <a href="html/mandoline.html">
+                        <h1 class="title">Mandoline Redesign<br><span id="gray-text">Interaction Design</span></h1>
+                        <div class="rec-dark-3 wow fadeInLeft"></div>
+                        <div class="rec-light-3 wow fadeInLeft"></div>
+                        <h1 class="view">View Project</h1>
+                        <div class="sum">
+                            <h1>Mandoline Redesign</h1>
+                            <h3>Interaction design study on the kitchen tool, the mandoline.</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="right wow fadeInRight">
                 <div class="work-4">
                     <img class="photography wow fadeInRight" src="images/camara.png" alt="photography">
-                    <a href="html/photography.html"><h1 class="title">My Photography</h1>
-                    <div class="rec-dark-4 wow fadeInRight"></div>
-                    <div class="rec-light-4 wow fadeInRight"></div>
-                    <h1 class="view">View Project</h1></a>
+                    <a href="html/photography.html">
+                        <h1 class="title">My Photography</h1>
+                        <div class="rec-dark-4 wow fadeInRight"></div>
+                        <div class="rec-light-4 wow fadeInRight"></div>
+                        <h1 class="view">View Project</h1>
+                        <div class="sum">
+                            <h1>Photography</h1>
+                            <h3>Collection of photos that I've taken in the past few years.</h3>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -97,12 +200,36 @@
         </div>
         <p>Roy Zhang</p>
     </footer>
-
+    <!-- 
     <script src="css/WOW-master/dist/wow.min.js">
     </script>
     <script>
-    new WOW().init();
+        new WOW().init();
+    </script> -->
+
+    <script type="text/javascript">
+        function openMenu(x) {
+            x.classList.toggle("change");
+
+            var menu = document.getElementById("menu");
+            var nameicon = document.getElementById("name")
+            if (menu.style.opacity < 1) {
+                nameicon.style.opacity = 0;
+                menu.style.opacity = 1;
+                menu.style.overflow = "auto";
+                menu.style.height = "80%";
+            }
+            else {
+                nameicon.style.opacity = 1;
+                menu.style.opacity = 0;
+                menu.style.overflow = "hidden";
+                menu.style.height = 0;
+            }
+
+
+        };
     </script>
+
 </body>
 
 </html>
