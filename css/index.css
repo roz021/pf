@@ -377,6 +377,7 @@ footer > p, .social > a {
 
     #name{
             position: absolute;
+            display: block;
             top: 4%;
             left: 5%;
             font-family: 'Montserrat', sans-serif;

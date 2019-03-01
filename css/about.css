@@ -172,6 +172,11 @@ footer > p, .social > a {
         overflow-x: hidden;
     }
 
+    .mobile-nav{
+        padding-bottom: 10%;
+    }
+
+    
     nav{
         visibility: hidden;
     }
@@ -184,6 +189,7 @@ footer > p, .social > a {
 
     #name{
             position: absolute;
+            display: block;
             top: 4%;
             left: 5%;
             font-family: 'Montserrat', sans-serif;

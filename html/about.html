@@ -23,7 +23,7 @@
     </nav>
 
     <div class="mobile-nav">
-        <a id="name" href="#">Roy Zhang</a>
+        <a id="name" href="../index.html">Roy Zhang</a>
         <a id="hamburger" href="javascript:void(0);" onclick="openMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
@@ -87,15 +87,12 @@
             x.classList.toggle("change");
 
             var menu = document.getElementById("menu");
-            var nameicon = document.getElementById("name")
             if (menu.style.opacity < 1) {
-                nameicon.style.opacity = 0;
                 menu.style.opacity = 1;
                 menu.style.overflow = "auto";
                 menu.style.height = "100%";
             }
             else {
-                nameicon.style.opacity = 1;
                 menu.style.opacity = 0;
                 menu.style.overflow = "hidden";
                 menu.style.height = 0;

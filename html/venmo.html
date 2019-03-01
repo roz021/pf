@@ -4,6 +4,8 @@
 
 <head>
     <title>Venmo Case Study</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/venmo.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="../css/animate.css">
@@ -23,6 +25,20 @@
         </div>
     </nav>
 
+    <div class="mobile-nav">
+            <a id="top-name" href="../index.html">Roy Zhang</a>
+            <a id="hamburger" href="javascript:void(0);" onclick="openMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+        </div>
+    
+        <div id="menu" class="drop">
+            <a class="items" href="../index.html">Work</a>
+            <a class="items" href="about.html">About</a>
+    
+        </div>
 
     <div class="top-banner">
         <img class="banner-top" src="../images/venmo/top-banner.png">
@@ -162,14 +178,33 @@
         <p>Roy Zhang</p>
     </footer>
 
-    <script src="../css/WOW-master/dist/wow.min.js">
-    </script>
-    <script>
-        new WOW().init();
-    </script>
+    <div class="mobile-footer">
+            <a href="https://www.instagram.com/ro.yz/">Instagram</a>
+            <a href="https://www.linkedin.com/in/roy-zhang-b5b289171">Linkedin</a>
+        </div>
+
+
     </div>
 
+    <script type="text/javascript">
+        function openMenu(x) {
+            x.classList.toggle("change");
 
+            var menu = document.getElementById("menu");
+            if (menu.style.opacity < 1) {
+                menu.style.opacity = 1;
+                menu.style.overflow = "auto";
+                menu.style.height = "100%";
+            }
+            else {
+                menu.style.opacity = 0;
+                menu.style.overflow = "hidden";
+                menu.style.height = 0;
+            }
+
+
+        };
+    </script>
 
 
 </body>
