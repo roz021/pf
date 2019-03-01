@@ -396,4 +396,8 @@ img{
         width: 90%;
     }
 
+    .ppf, .pp{
+        height: 40px;
+        width: auto;
+    }
 }
