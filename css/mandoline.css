@@ -94,6 +94,10 @@ nav{
     margin-left: 5%;
 }
 
+#top-name{
+    display: none;
+}
+
 nav a{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
