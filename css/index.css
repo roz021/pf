@@ -254,6 +254,10 @@ nav a{
     top: 100%;
 }
 
+.description-overlay-sm{
+    display: none;
+}
+
 .v:hover .description-overlay.venmo, .f:hover .description-overlay.fitfam, .m:hover .description-overlay.mandoline, .d:hover .description-overlay.design{
     top: 0;
     -moz-transition: top 0.5s;
@@ -325,6 +329,10 @@ footer{
 footer > p, .social > a {
     font-weight: 500;
 }
+
+.mobile-footer{
+    display:none;
+}
 /* MOTION */
 
 .delay-1{
@@ -347,21 +355,14 @@ footer > p, .social > a {
 
 
 
+/*RESPONSIVE*/
 
-
-
-
-
-
-
-
-
-
-/* @media only screen and (max-width: 500px){
+ @media only screen and (max-width: 500px){
    
     body, html{
         margin: 0;
         padding: 0;
+        padding-bottom: 210%;
     }
 
     nav{
@@ -392,18 +393,18 @@ footer > p, .social > a {
       }
       
       /* Rotate first bar */
-      /* .change .bar1 {
+       .change .bar1 {
         -webkit-transform: rotate(-45deg) translate(-5px, 2px) ;
         transform: rotate(-45deg) translate(-5px, 2px) ;
-      } */
+      } 
       
       /* Fade out the second bar */
-      /* .change .bar2 {
+       .change .bar2 {
         opacity: 0;
       }
       
       /* Rotate last bar */
-      /* .change .bar3 {
+       .change .bar3 {
         -webkit-transform: rotate(45deg) translate(-10px, -8px) ;
         transform: rotate(45deg) translate(-10px, -8px) ;
       }
@@ -415,6 +416,10 @@ footer > p, .social > a {
 
     .landing{
         margin-top: 100px;
+    }
+
+    .landing h2{
+        font-size: 25px;
     }
 
     .skills{
@@ -435,13 +440,52 @@ footer > p, .social > a {
     }
 
     .skills-box h3{
-        margin-top: 20%;
+        margin-top: 5%;
+        font-size: 15px;
     }
     
     .drop-arrow{
         margin-top: 2%;
-        width: 30px;
-        height: 8px;
+        width: 20px;
+        height: 6px;
     }
 
-} */ 
+    .view-work h4{
+        font-size: 12px;
+    }
+    
+    .work-gallery{
+        grid-template-columns: 1fr;
+    }
+
+    .project{
+        padding: 25vw 15vw;
+        margin-bottom: 10%;
+    }
+
+    .description-overlay-sm{
+        position: absolute;
+        bottom: -25%;
+        left: 0;
+        display: block;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .mobile-footer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20%;
+        justify-content: space-between;
+    }
+}
