@@ -266,6 +266,27 @@ nav a{
     
 }
 
+.work6-wrapper{
+    position: relative;
+    width: 100%;
+    background-color: rgb(181, 149, 255);
+    padding: 15vw 0.1vw;
+}
+
+.mobile-6{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
+    box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
+    
+}
+
 .ill1-wrapper{
     position: relative;
     width: 100%;
@@ -401,7 +422,7 @@ footer > p, .social > a {
         padding: 25vw 5vw;
     }
 
-    .work2-wrapper, .work3-wrapper, .work4-wrapper, .work5-wrapper, .ill1-wrapper, .ill2-wrapper{
+    .work2-wrapper, .work3-wrapper, .work4-wrapper, .work5-wrapper, .work6-wrapper, .ill1-wrapper, .ill2-wrapper{
         padding: 25vw 0.1vw;
     }
 }
