@@ -146,7 +146,7 @@ nav a{
     /* text-align: center; */
 }
 
-.work-1, .work-2, .work-3, .ill-1, .ill-2{
+.work-1, .work-2, .work-3, .work-4, .ill-1, .ill-2{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -232,7 +232,7 @@ nav a{
     position: relative;
     width: 100%;
     background-color: rgb(177, 224, 255);
-    padding: 23vw 0.1vw;
+    padding: 15vw 0.1vw;
 }
 
 .web-4{
@@ -401,7 +401,7 @@ footer > p, .social > a {
         padding: 25vw 5vw;
     }
 
-    .work2-wrapper, .work3-wrapper, .ill1-wrapper, .ill2-wrapper{
+    .work2-wrapper, .work3-wrapper, .work4-wrapper, .work5-wrapper, .ill1-wrapper, .ill2-wrapper{
         padding: 25vw 0.1vw;
     }
 }
