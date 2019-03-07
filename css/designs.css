@@ -199,8 +199,10 @@ nav a{
     position: absolute;
     width: 60%;
     height: auto;
-    top: 15%;
-    left: 18%;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
@@ -217,8 +219,10 @@ nav a{
     position: absolute;
     width: 60%;
     height: auto;
-    left: 19%;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
@@ -228,15 +232,17 @@ nav a{
     position: relative;
     width: 100%;
     background-color: rgb(177, 224, 255);
-    padding: 15vw 0.1vw;
+    padding: 23vw 0.1vw;
 }
 
 .web-4{
     position: absolute;
     width: 60%;
     height: auto;
-    left: 19%;
-    top: 15%;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
@@ -253,8 +259,10 @@ nav a{
     position: absolute;
     width: 22%;
     height: auto;
-    left: 38%;
-    top: 28%;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);;
     
 }
 
@@ -270,8 +278,10 @@ nav a{
     position: absolute;
     width: 70%;
     height: auto;
-    top: 11%;
-    left: 14%;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
     box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.8);
