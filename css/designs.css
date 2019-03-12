@@ -165,7 +165,7 @@ nav a{
     /* text-align: center; */
 }
 
-.work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-8, .ill-1, .ill-2{
+.work-1, .work-2, .work-3, .work-4, .work-5, .work-6, .work-8, .work-9, .ill-1, .ill-2{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -332,6 +332,44 @@ nav a{
     
 }
 
+.work9-wrapper{
+    background-color: rgb(175, 51, 51);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 83%;
+    padding: 20vw 5vw;
+    /* width: 100%; */
+    /* padding: 5vw 0.1vw; */
+}
+
+.mobile-9{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    left: 5%;
+    top: 12%;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8);
+    box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8)
+  
+
+}
+
+.web-9{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8);
+    box-shadow: 0px 5px 20px 0px rgba(39, 2, 2, 0.8)
+
+}
+
 .ill1-wrapper{
     position: relative;
     width: 100%;
@@ -462,7 +500,7 @@ footer > p, .social > a {
         width: 90%;
     }
 
-    .work1-wrapper{
+    .work1-wrapper, .work9-wrapper{
         width: 90%;
         padding: 25vw 5vw;
     }
